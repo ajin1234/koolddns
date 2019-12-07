@@ -1,6 +1,6 @@
 #! /bin/sh
 
-export KSROOT=/koolshare
+export KSROOT=/usr/share
 source $KSROOT/scripts/base.sh
 eval `dbus export koolddns`
 
